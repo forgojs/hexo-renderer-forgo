@@ -1,0 +1,22 @@
+{
+  "name": "hexo-renderer-forgo",
+  "version": "0.0.1",
+  "author": "Jeswin Kumar<jeswinpk@agilehead.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forgojs/hexo-renderer-forgo"
+  },
+  "main": "./dist",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "forgo": "^1.1.2",
+    "forgo-ssr": "^1.0.5"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  }
+}
